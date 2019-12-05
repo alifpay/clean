@@ -1,0 +1,1 @@
+Any entities, or model will stored here. This layer, will store any Object’s Struct and its method.

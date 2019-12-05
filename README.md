@@ -19,11 +19,6 @@ Handlers are responsible for receiving requests from clients and sending respons
 Gateways provide a standard mechanism for communicating with external services (e.g., payment, email).
 
 Purpose:
-   Consistent Code Structure
-   Easy to understand, navigate and reason about
-   Easy to change, loosely-coupled.
-   Easy test
-   As simple as possible, but not simpler
-   Design reflects exactly how the software works
-   Structure reflects the design exactly.
+
+   Consistent Code Structure, easy to understand, navigate and reason about, easy to change, loosely-coupled. Easy test. As simple as possible, but not simpler. Design reflects exactly how the software works, structure reflects the design exactly.
 

@@ -1,6 +1,6 @@
 Clean Architecture on Golang. Develop clean Go code that is easier to read, maintain, and test.
 
-1. Dependency injection (DI) is coding in such a way that those resources (that is, functions or structs) that we depend on are abstractions. Because these dependencies are abstract, changes to them do not necessitate changes to our code. The fancy word for this is decoupling. At the end of the day, DI is a tool — a handy tool, but no magic bullet. It's a tool that can make code easier to understand, test, extend, and reuse — a tool that can also help reduce the likelihood of circular dependency issues that commonly plague new Go developers.
+1. Dependency injection (DI) is coding in such a way that those resources (that is, functions or structs) that we depend on are abstractions. Because these dependencies are abstract, changes to them do not necessitate changes to our code. The fancy word for this is decoupling. DI is a tool — a handy tool, but no magic bullet. It's a tool that can make code easier to understand, test, extend, and reuse — a tool that can also help reduce the likelihood of circular dependency issues that commonly plague new Go developers.
 
 2. Business layer in controllers
 

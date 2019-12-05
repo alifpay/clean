@@ -45,3 +45,7 @@ What happens after the order is placed?
     One shipment or two?
 
     An invoice/shipping list is printed, and placed with the order
+
+
+Do not write SQL in this layer. 
+Do not bring others layers logic here.

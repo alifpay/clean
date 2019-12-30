@@ -1,5 +1,5 @@
 
-5. Gateways are external services
+5. Gateway is external services
 
 Gateways provide a standard mechanism for communicating with external services (e.g., payment, email, notification).
 

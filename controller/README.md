@@ -1,4 +1,4 @@
-2. Business layer in controllers
+2. Business layer in controller
 
 Let's start with some basic definitions, and then look at a couple of examples and see how those definitions map to the examples, and how they map to actual software.
 

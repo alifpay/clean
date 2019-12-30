@@ -1,4 +1,4 @@
-Clean Architecture on Golang. Develop clean Go code that is easier to read, maintain, and test.
+Clean Architecture in Go. Develop clean Go code that is easier to read, maintain, and test.
 
 ![Clean Architecture on Golang](/imgs/codestr.jpg)
 
@@ -12,21 +12,21 @@ The intent behind dependency injection is to achieve Separation of Concerns of c
 
 Dependency injection is one form of the broader technique of inversion of control. A client who wants to call some services should not have to know how to construct those services. Instead, the client delegates the responsibility of providing its services to external code (the injector). The client is not allowed to call the injector code;[2] it is the injector that constructs the services. The injector then injects (passes) the services into the client which might already exist or may also be constructed by the injector. The client then uses the services. This means the client does not need to know about the injector, how to construct the services, or even which actual services it is using. The client only needs to know about the intrinsic interfaces of the services because these define how the client may use the services. This separates the responsibility of "use" from the responsibility of "construction". 
 
-2. Business layer in controllers
+2. Business layer in controller
 
 Business logic or domain logic is that part of the program which encodes the real-world business rules that determine how data can be created, stored, and changed. It prescribes how business objects interact with one another, and enforces the routes and the methods by which business objects are accessed and updated.
 
-3. Storages (Database and caches)  
+3. Storage (Database and caches)  
 Storage is responsible for database related job such as querying, inserting/storing or deleting. No business logic is implemented here.
 Repositories abstract data storage behind a common interface, allowing services to persist data to and retrieve data from any number or type of storage backends.
 
-4. Handlers any transport layer http web api, grpc, graphql and etc.
+4. Handler any transport layer http web api, grpc, graphql and etc.
 
-Handlers are responsible for receiving requests from clients and sending responses back to clients. HTTP+JSON and gRPC are two kinds of transports, for example. By not allowing transport specific details to leak into the business logic, a service can plug in transports for any number of protocols and hand off processing to pure business logic that is not concerned with communicating with clients.
+Handler is responsible for receiving requests from clients and sending responses back to clients. HTTP+JSON and gRPC are two kinds of transports, for example. By not allowing transport specific details to leak into the business logic, a service can plug in transports for any number of protocols and hand off processing to pure business logic that is not concerned with communicating with clients.
 
-5. Gateways are external services
+5. Gateway is external services
 
-Gateways provide a standard mechanism for communicating with external services (e.g., payment, email).
+Gateway provides a standard mechanism for communicating with external services (e.g., payment, email).
 
 Purpose:
 

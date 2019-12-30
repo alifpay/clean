@@ -1,5 +1,7 @@
 2. Business layer in controller
 
+![controller](/imgs/ctrl.jpg)
+
 Let's start with some basic definitions, and then look at a couple of examples and see how those definitions map to the examples, and how they map to actual software.
 
 Business logic or domain logic is that part of the program which encodes the real-world business rules that determine how data can be created, stored, and changed. It prescribes how business objects interact with one another, and enforces the routes and the methods by which business objects are accessed and updated.
